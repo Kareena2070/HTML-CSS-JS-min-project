@@ -6,11 +6,16 @@
 
 html, body{
     width: 100%;
+    height: 100%;
+}
+#page1{
+    width: 100%;
     height: 100vh;
+    border-bottom: 1px solid black;
 }
 
 #recta{
-    width: 10rem;
+    width: 15rem;
     height: 15rem;
     background-color: black;
     position: absolute;
@@ -18,4 +23,20 @@ html, body{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
+}
+
+#page2{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#center{
+    height: 25rem;
+    width: 45rem;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
